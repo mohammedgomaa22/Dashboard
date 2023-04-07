@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files</title>
+    <!-- Main Framework From CSS -->
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- Main CSS file  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="page d-f">
+        <div class="sidebar sidebar-n-fold bg-white p-20 p-rel bx-sh trans-d-3 bx-sh">
+            <button id="angle" class="c-white p-abs txt-c align-c justify-c" aria-label="angle">
+                <i class="fas fa-angle-right fa-fw"></i>
+            </button>
+            <h3 class="p-rel mt-0 txt-c">M|G</h3>
+            <ul class="rel">
+                <li>
+                    <a class="d-f align-c p-10 fs-14 rad-6 trans-d-3" href="index.html" aria-label="Go To Home">
+                        <i class="fa-solid fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-c p-10 fs-14 rad-6 trans-d-3" href="settings.html" aria-label="Go To Settings">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-c p-10 fs-14 rad-6 trans-d-3" href="profile.html" aria-label="Go To Profile">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-c p-10 fs-14 rad-6 trans-d-3" href="projects.html" aria-label="Go To Projects">
+                        <i class="fa-brands fa-r-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-c p-10 fs-14 rad-6 trans-d-3" href="courses.html" aria-label="Go To Courses">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-c p-10 fs-14 rad-6 trans-d-3" href="friends.html" aria-label="Go To Friends">
+                        <i class="fa-solid fa-users fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-f align-c p-10 fs-14 rad-6 trans-d-3" href="files.html" aria-label="Go To Files">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-c p-10 fs-14 rad-6 trans-d-3" href="plans.html" aria-label="Go To Plans">
+                        <i class="fa-solid fa-box-open fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="log-out p-abs">
+                <li>
+                    <a class="d-f align-c p-10 fs-14 rad-6 trans-d-3" href="#" aria-label="Go To Plans">
+                        <i class="fa-solid fa-right-from-bracket fa-fw fs-16"></i>
+                        <span>Log Out</span>
+                    </a>
+                </li>
+            </ul>
+            <div id="mode" class="mode p-abs">
+                <div id="change" class="change light p-rel"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="head bg-white d-f align-c p-15">
+                <div class="p-rel">
+                    <i class="fa-solid fa-magnifying-glass fa-fw"></i>
+                    <input class="p-10 fs-14 trans-d-3" type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="profile p-rel d-f align-c justify-c">
+                    <i class="fa-regular fa-bell fa-fw"></i>
+                    <a href="profile.html">
+                        <img class="rad-50" src="pic/dash/av.jpg" alt="profile">
+                    </a>
+                </div>
+            </div>
+            <div class="files-page p-20">
+                <h1 class="main-title p-rel m-0">Files</h1>
+                <div class="content-files d-f g-20">
+                    <!-- Start Files Box -->
+                    <div class="files-box d-g g-20">
+                        <!-- File-1 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/avi.svg" alt="file">
+                                <p class="m-0">my-file.avi</p>
+                            </div>
+                            <span class="wor fs-13 c-para">M|G</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">16/5/2022</span>
+                                <span class="sz fs-13 c-para f-500">1.1MB</span>
+                            </div>
+                        </div>
+                         <!-- File-2 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/dll.svg" alt="file">
+                                <p class="m-0">my-file.dll</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Designer</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">6/3/2022</span>
+                                <span class="sz fs-13 c-para f-500">3.2MB</span>
+                            </div>
+                        </div>
+                        <!-- File-3 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/eps.svg" alt="file">
+                                <p class="m-0">my-file.eps</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Admin</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">6/8/2021</span>
+                                <span class="sz fs-13 c-para f-500">13.2MB</span>
+                            </div>
+                        </div>
+                        <!-- File-4 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/pdf.svg" alt="file">
+                                <p class="m-0">my-file.pdf</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Uploader</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">18/2/2021</span>
+                                <span class="sz fs-13 c-para f-500">11.4MB</span>
+                            </div>
+                        </div>
+                        <!-- File-5 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/png.svg" alt="file">
+                                <p class="m-0">my-file.png</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Mohammed</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">18/4/2023</span>
+                                <span class="sz fs-13 c-para f-500">22.7MB</span>
+                            </div>
+                        </div>
+                        <!-- File-6 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/psd.svg" alt="file">
+                                <p class="m-0">my-file.psd</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Ali</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">1/9/2023</span>
+                                <span class="sz fs-13 c-para f-500">6.7MB</span>
+                            </div>
+                        </div>
+                        <!-- File-7 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/eps.svg" alt="file">
+                                <p class="m-0">my-file.eps</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Admin</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">6/8/2021</span>
+                                <span class="sz fs-13 c-para f-500">13.2MB</span>
+                            </div>
+                        </div>
+                        <!-- File-8 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/dll.svg" alt="file">
+                                <p class="m-0">my-file.dll</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Designer</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">6/3/2022</span>
+                                <span class="sz fs-13 c-para f-500">3.2MB</span>
+                            </div>
+                        </div>
+                        <!-- File-9 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/avi.svg" alt="file">
+                                <p class="m-0">my-file.avi</p>
+                            </div>
+                            <span class="wor fs-13 c-para">M|G</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">16/5/2022</span>
+                                <span class="sz fs-13 c-para f-500">1.1MB</span>
+                            </div>
+                        </div>
+                        <!-- File-10 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/psd.svg" alt="file">
+                                <p class="m-0">my-file.psd</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Ali</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">1/9/2023</span>
+                                <span class="sz fs-13 c-para f-500">6.7MB</span>
+                            </div>
+                        </div>
+                        <!-- File-11 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/png.svg" alt="file">
+                                <p class="m-0">my-file.png</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Mohammed</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">18/4/2023</span>
+                                <span class="sz fs-13 c-para f-500">22.7MB</span>
+                            </div>
+                        </div>
+                        <!-- File-12 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/pdf.svg" alt="file">
+                                <p class="m-0">my-file.pdf</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Uploader</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">18/2/2021</span>
+                                <span class="sz fs-13 c-para f-500">11.4MB</span>
+                            </div>
+                        </div>
+                        <!-- File-13 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/avi.svg" alt="file">
+                                <p class="m-0">my-file.avi</p>
+                            </div>
+                            <span class="wor fs-13 c-para">M|G</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">16/5/2022</span>
+                                <span class="sz fs-13 c-para f-500">1.1MB</span>
+                            </div>
+                        </div>
+                         <!-- File-14 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/dll.svg" alt="file">
+                                <p class="m-0">my-file.dll</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Designer</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">6/3/2022</span>
+                                <span class="sz fs-13 c-para f-500">3.2MB</span>
+                            </div>
+                        </div>
+                        <!-- File-15 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/eps.svg" alt="file">
+                                <p class="m-0">my-file.eps</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Admin</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">6/8/2021</span>
+                                <span class="sz fs-13 c-para f-500">13.2MB</span>
+                            </div>
+                        </div>
+                        <!-- File-16 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/pdf.svg" alt="file">
+                                <p class="m-0">my-file.pdf</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Uploader</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">18/2/2021</span>
+                                <span class="sz fs-13 c-para f-500">11.4MB</span>
+                            </div>
+                        </div>
+                        <!-- File-17 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/png.svg" alt="file">
+                                <p class="m-0">my-file.png</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Mohammed</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">18/4/2023</span>
+                                <span class="sz fs-13 c-para f-500">22.7MB</span>
+                            </div>
+                        </div>
+                        <!-- File-18 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/psd.svg" alt="file">
+                                <p class="m-0">my-file.psd</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Ali</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">1/9/2023</span>
+                                <span class="sz fs-13 c-para f-500">6.7MB</span>
+                            </div>
+                        </div>
+                        <!-- File-19 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/eps.svg" alt="file">
+                                <p class="m-0">my-file.eps</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Admin</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">6/8/2021</span>
+                                <span class="sz fs-13 c-para f-500">13.2MB</span>
+                            </div>
+                        </div>
+                        <!-- File-20 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/dll.svg" alt="file">
+                                <p class="m-0">my-file.dll</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Designer</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">6/3/2022</span>
+                                <span class="sz fs-13 c-para f-500">3.2MB</span>
+                            </div>
+                        </div>
+                        <!-- File-21 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/avi.svg" alt="file">
+                                <p class="m-0">my-file.avi</p>
+                            </div>
+                            <span class="wor fs-13 c-para">M|G</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">16/5/2022</span>
+                                <span class="sz fs-13 c-para f-500">1.1MB</span>
+                            </div>
+                        </div>
+                        <!-- File-22 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/psd.svg" alt="file">
+                                <p class="m-0">my-file.psd</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Ali</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">1/9/2023</span>
+                                <span class="sz fs-13 c-para f-500">6.7MB</span>
+                            </div>
+                        </div>
+                        <!-- File-23 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/png.svg" alt="file">
+                                <p class="m-0">my-file.png</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Mohammed</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">18/4/2023</span>
+                                <span class="sz fs-13 c-para f-500">22.7MB</span>
+                            </div>
+                        </div>
+                        <!-- File-24 -->
+                        <div class="file rad-10 p-0 bg-white p-rel p-10">
+                            <i class="down fa-solid fa-download  p-abs c-para"></i>
+                            <div class="img flex-center g-20">
+                                <img src="pic/files/pdf.svg" alt="file">
+                                <p class="m-0">my-file.pdf</p>
+                            </div>
+                            <span class="wor fs-13 c-para">Uploader</span>
+                            <div class="foot flex-between g-10">
+                                <span class="date fs-13 c-para f-500">18/2/2021</span>
+                                <span class="sz fs-13 c-para f-500">11.4MB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Files Box -->
+                    <!-- Start Sidebar -->
+                    <div class="sidebar bg-white rad-10 p-20 p-rel">
+                        <h3 class="title mt-0 fs-26 f-600">Files Statistics</h3>
+                        <!-- File-1 -->
+                        <div class="fl rad-6 p-10 mb-10 flex-between">
+                            <div class="name d-f align-c g-10">
+                                <i class="fa-regular fa-file-pdf fa-lg flex-center c-blue"></i>
+                                <p class="m-0 f-600 fs-13">
+                                    PDF Files
+                                    <span class="num fs-13 c-para d-b f-600 pt-5">130</span>
+                                </p>
+                            </div>
+                            <span class="size fs-13 c-para f-600">6.5GB</span>
+                        </div>
+                        <!-- File-2 -->
+                        <div class="fl rad-6 p-10 mb-10 flex-between">
+                            <div class="name d-f align-c g-10">
+                                <i class="fa-regular fa-images fa-lg flex-center c-blue"></i>
+                                <p class="m-0 f-600 fs-13">
+                                    Images
+                                    <span class="num fs-13 c-para d-b f-600 pt-5">115 Files</span>
+                                </p>
+                            </div>
+                            <span class="size fs-13 c-para f-600">3.5GB</span>
+                        </div>
+                        <!-- File-3 -->
+                        <div class="fl rad-6 p-10 mb-10 flex-between">
+                            <div class="name d-f align-c g-10">
+                                <i class="fa-regular fa-file-word fa-lg flex-center c-blue"></i>
+                                <p class="m-0 f-600 fs-13">
+                                    Word Files
+                                    <span class="num fs-13 c-para d-b f-600 pt-5">110 Files</span>
+                                </p>
+                            </div>
+                            <span class="size fs-13 c-para f-600">3.2GB</span>
+                        </div>
+                        <!-- File-3 -->
+                        <div class="fl rad-6 p-10 mb-15 flex-between">
+                            <div class="name d-f align-c g-10">
+                                <i class="fa-solid fa-file-csv fa-lg flex-center c-blue"></i>
+                                <p class="m-0 f-600 fs-13">
+                                    CSV Files
+                                    <span class="num fs-13 c-para d-b f-600 pt-5">99 Files</span>
+                                </p>
+                            </div>
+                            <span class="size fs-13 c-para f-600">2.9GB</span>
+                        </div>
+                        <!-- Button -->
+                        <a class="btn-blue rad-6 c-white p-abs" href="#">
+                            <i class="fa-solid fa-angles-up mr-10"></i>
+                            Upload
+                        </a>
+                    </div>
+                    <!-- End Sidebar -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <!-- JS -->
+</body>
+</html>
