@@ -36,19 +36,17 @@ const tasks = () => {
 };
 tasks();
 // --------------------------------------------------------
-// --------------------------------------------------------
-// const mode = () => {
-//     const mode = document.getElementById("mode"),
-//         change = document.getElementById("change");
-    
-//     mode.addEventListener(("click"), () => {
-//         if (change.classList.contains("light")) {
-//             change.classList.replace("light", "dark");
-//         } else {
-//             change.classList.replace("dark", "light");
-//         }
-//     });
-
-// };
-// mode();
+// Scroll To Top
+const scrolling = () => {
+    const up = document.querySelector(".up");
+    // -----------------
+    up.onclick = () => {
+        window.scrollTo({top: 0, behavior: "smooth"});
+    }
+    // -----------------
+    window.onscroll = function() {
+        this.scrollY >= 800 ? up.classList.add("show"): up.classList.remove("show");
+    }
+}
+scrolling();
 // --------------------------------------------------------

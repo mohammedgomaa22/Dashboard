@@ -43,6 +43,19 @@ input {
 }
 /* End Roles */
 /* Start Component */
+.up {
+    position: fixed;
+    bottom: 15px;
+    right: -50px;
+    z-index: 555;
+}
+.up:hover {
+    background-color: var(--hover-colo);
+}
+.up.show {
+    right: 15px;
+}
+/* ---------------- Break ---------------- */
 .main-title {
     margin-bottom: 40px;
 }
